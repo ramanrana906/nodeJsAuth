@@ -1,0 +1,20 @@
+<link rel="stylesheet" href="/css/home.css">
+
+<div id="home-container">
+    <section id="feed-posts">
+            
+            <% if(locals.user){ %>
+             <a href="users/sign-out"  class="btn btn-danger" >sign-out</a>
+             <a href="/auth/verify" class="btn btn-primary">Reset Password</a>
+           
+            <% }else{ %>
+            <h1>Sign<a href="users/sign-in">In</a>/ <a href="users/sign-up">Up</a> to Continue</h1>
+            <% } %>
+        </section>
+        
+        
+       
+</div>
+
+<!-- importing this script for creating the comments -->
+

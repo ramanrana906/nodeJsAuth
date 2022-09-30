@@ -1,0 +1,7 @@
+#sign-up-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; }
+  #sign-up-form #sign-up-div {
+    width: 30%; }

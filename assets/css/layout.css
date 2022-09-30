@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+  background-image: url("/images/bg-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* text-align: center; */ }
+
+body #layout-main {
+  min-height: 600px; }

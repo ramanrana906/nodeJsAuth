@@ -1,0 +1,8 @@
+#acc-ver {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; }
+  #acc-ver #acc-ver-container {
+    width: 30%; }
